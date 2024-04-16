@@ -13,10 +13,4 @@ public class Controller {
     public ResponseEntity<String>ping(){
         return ResponseEntity.ok("PINGING");
     }
-
-    @GetMapping("test")
-    public ResponseEntity<String>test(){
-        return ResponseEntity.ok("I am testing this new endpoint");
-    }
-
 }
